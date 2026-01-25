@@ -50,7 +50,7 @@ VS Code IDE의 다음 메뉴를 선택해서 Dev Container를 구동합니다.
     ```
 
     ```bash title="" linenums="0"
-    azd login
+    azd auth login
     ```
 1. When flow is complete, return to VS Code - accept default subscription
 
