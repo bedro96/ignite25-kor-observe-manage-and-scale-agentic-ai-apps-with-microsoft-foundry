@@ -46,11 +46,11 @@ VS Code IDE의 다음 메뉴를 선택해서 Dev Container를 구동합니다.
 1. 이 명령을 실행하세요 - **제공받은** 구독을 사용해서 인증을 완료하는 절차를 따라하세요.
 
     ```bash title="" linenums="0"
-    az login
+    az login --use-device-code
     ```
 
     ```bash title="" linenums="0"
-    azd auth login
+    azd auth login --use-device-code
     ```
 1. When flow is complete, return to VS Code - accept default subscription
 
