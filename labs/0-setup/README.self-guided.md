@@ -78,7 +78,7 @@ _Let's get this done_
     1. Enter environment name (고유한 자신의 환경을 입력하세요): `Ignite-PREL-<USER_NAME>`
     1. Enter Azure region: `swedencentral`
     1. Enter Subscription ID: _your subscription id here_
-    1. Do you want to activate Azure AI Search? (yes/no) [no]: yes
+    1. Do you want to activate Azure AI Search? (yes/no) [no]: **yes**
     1. Use these defaults? (yes/no) [yes]: no
     1. Proceed with deployment? (yes/no): yes
 
