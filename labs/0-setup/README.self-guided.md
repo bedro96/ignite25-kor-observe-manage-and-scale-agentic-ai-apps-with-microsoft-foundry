@@ -130,6 +130,7 @@ _Let's get this done_
 1. 이 스크립트를 저장소 최상위 폴더에서 실행하세요 - Azure CLI에서 추출한 값으로 `.env` 파일이 생성됩니다. 기본적으로 `rg-Ignite-XXX` 리소스 그룹을 찾지만, 값을 덮어씌울수도 있습니다.
 
     ```
+    cd ..
     ./scripts/1-update-env-selfguided.sh 
     ``````
 
@@ -163,7 +164,12 @@ _Let's get this done_
     cd scripts/
     ./2-add-model-choices.sh 
     ```
-
+1. Select models to deploy (enter numbers separated by spaces, e.g., '1 3 5'):
+Or type 'all' to deploy all available models, or 'cancel' to exit:
+    ```bash
+    yes
+    ```
+    
 1. On success you should see:
 
     ```bash
