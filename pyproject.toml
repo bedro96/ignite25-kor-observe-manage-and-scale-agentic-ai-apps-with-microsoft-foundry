@@ -1,0 +1,32 @@
+[project]
+name = "ignite25-kor-observe-manage-and-scale-agentic-ai-apps-with-microsoft-foundry"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "agent-framework==1.0.0b251108",
+    "agent-framework-azure-ai==1.0.0b251108",
+    "agent-framework-core==1.0.0b251108",
+    "azure-ai-evaluation==1.12.0",
+    "azure-identity>=1.26.0b2",
+    "azure-mgmt-cognitiveservices>=14.1.0",
+    "azure-monitor-opentelemetry==1.8.1",
+    "azure-monitor-opentelemetry-exporter==1.0.0b44",
+    "azure-search-documents==11.5.3",
+    "ipykernel>=7.2.0",
+    "ipython>=9.12.0",
+    "langchain-azure-ai==1.0.3",
+    "matplotlib==3.10.3",
+    "mkdocs-material==9.6.20",
+    "numpy==2.3.1",
+    "openai==2.7.2",
+    "openai-agents==0.5.0",
+    "opentelemetry-instrumentation-openai-agents-v2>=0.1.0",
+    "pandas==2.3.3",
+    "python-dotenv>=1.2.2",
+    "requests==2.32.5",
+    "rich==14.2.0",
+    "tiktoken==0.12.0",
+    "uv>=0.11.2",
+]
