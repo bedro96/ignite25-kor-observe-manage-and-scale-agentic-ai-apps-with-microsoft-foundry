@@ -22,7 +22,8 @@
 				"ms-python.python",
 				"ms-toolsai.jupyter",
 				"GitHub.copilot",
-				"shd101wyy.markdown-preview-enhanced"
+				"shd101wyy.markdown-preview-enhanced", 
+				"mathematic.vscode-pdf"
 			]
 		}
 	}
